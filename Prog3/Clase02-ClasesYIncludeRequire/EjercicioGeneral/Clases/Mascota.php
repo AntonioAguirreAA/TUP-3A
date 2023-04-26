@@ -28,5 +28,5 @@ class Mascota
         return ($this->nombre == $mascota->nombre && $this->tipo == $mascota->tipo);
     }
 }
-
+ 
 ?>
