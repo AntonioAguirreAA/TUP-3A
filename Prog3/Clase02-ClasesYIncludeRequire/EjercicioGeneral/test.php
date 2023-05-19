@@ -37,11 +37,13 @@ echo "<br>";
 $mascotaUno = new Animalitos\Mascota("Sanson","Perro",6);
 $mascotaDos = new Animalitos\Mascota("Mikkel","Gato",3);
 $mascotaTres = new Animalitos\Mascota("Tyrone","Perro",3);
+$mascotaCuatro = new Animalitos\Mascota("Tyrone","Perro",5);
 
 $panchoGuarderia = new Negocios\Guarderia("La Guarderia de Pancho");
 $panchoGuarderia->add($mascotaUno);
 $panchoGuarderia->add($mascotaDos);
 $panchoGuarderia->add($mascotaTres);
+$panchoGuarderia->add($mascotaCuatro);
 echo "<br><br><h1>Guarderia</h1><br>";
 echo $panchoGuarderia->toString();
 ?>
