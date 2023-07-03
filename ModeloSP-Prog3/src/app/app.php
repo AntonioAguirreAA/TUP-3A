@@ -21,7 +21,7 @@ $app->get('[/]', function(Request $request, Response $response, $args) : Respons
 });
 
 $app->post('[/]', function(Request $request, Response $response, $args) : Response{
-    return Perfiles::Alta($request, $response, $args);
+    return Auto::Alta($request, $response, $args);
 });
 
 $app->run();
